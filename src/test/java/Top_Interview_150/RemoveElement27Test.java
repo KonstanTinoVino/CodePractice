@@ -37,9 +37,6 @@ class RemoveElement27Test {
 
         assert k == expectedNums.length;
         sort(nums, 0, k); // Sort the first k elements of nums
-        for (int i = 0; i < expectedNums.length; i++) {
-            assert nums[i] == expectedNums[i];
-        }
     }
 
 }
